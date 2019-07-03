@@ -15,7 +15,8 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
-  p ((num1.to_f / num2.to_f) - (num1 - num2))* num2
+#  p ((num1.to_f / num2.to_f) - (num1 - num2))* num2
+  p num1.to_f / num2.to_f
 end
 
 def square_root(num)
