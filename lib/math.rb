@@ -16,7 +16,7 @@ end
 
 def modulo(num1, num2)
   raw_float = ((num1.to_f / num2.to_f) - (num1 / num2)) * num2
-  p raw_float.to_i
+  p raw_float.round(1)
 end
 
 def square_root(num)
