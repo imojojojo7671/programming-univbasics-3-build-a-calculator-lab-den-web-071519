@@ -15,8 +15,7 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
-  raw_number = num1 / num2
-  p (raw_number - raw_number.to_i) * 10
+  p = num1.to_i / num2
 end
 
 def square_root(num)
